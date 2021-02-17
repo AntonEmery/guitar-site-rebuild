@@ -6,6 +6,15 @@
           {% for page in navigation.pages %}
           <li>
             <a href="{{ page.url }}">{{ page.title }}</a>
+            {% if page.subMenu %}
+            <ul>
+              {% for subMenu in page.subMenu %}
+              <li>
+                <a href="{{ subMenu.url }}">{{ subMenu.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>

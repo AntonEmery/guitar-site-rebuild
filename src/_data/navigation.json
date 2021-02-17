@@ -6,7 +6,21 @@
     },
     {
       "title": "about",
-      "url": "/about"
+      "url": "/about",
+      "subMenu": [
+        {
+          "title": "instruments",
+          "url": "/instruments"
+        },
+        {
+          "title": "Avery & Anton",
+          "url": "/averyandanton"
+        },
+        {
+          "title": "Dram & Go",
+          "url": "http://www.dramandgo.com"
+        }
+      ]
     },
     {
       "title": "blog",
