@@ -1,0 +1,14 @@
+{
+  "name": "celticfingerstyleguitar-redesign",
+  "version": "1.0.0",
+  "description": "celticfingerstyleguitar.com rebuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Emery",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
