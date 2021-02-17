@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "title": "home",
+      "url": "/"
+    },
+    {
+      "title": "about",
+      "url": "/about"
+    },
+    {
+      "title": "blog",
+      "url": "/blog"
+    },
+    {
+      "title": "albums",
+      "url": "/albums"
+    },
+    {
+      "title": "Sheet Music",
+      "url": "/sheet-music"
+    },
+    {
+      "title": "Gigs",
+      "url": "/gigs"
+    }
+  ]
+}

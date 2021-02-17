@@ -1,0 +1,15 @@
+<header role="banner" class="site-head">
+  <div class="wrapper">
+    <div class="site-head__inner">
+      <nav aria-label="primary">
+        <ul class="nav__list">
+          {% for page in navigation.pages %}
+          <li>
+            <a href="{{ page.url }}">{{ page.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
