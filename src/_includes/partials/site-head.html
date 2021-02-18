@@ -3,12 +3,12 @@
     <div class="site-head__inner">
       <nav aria-label="primary">
         <ul class="nav__list">
-          {% for page in navigation.pages %}
+          {% for item in navigation.pages %}
           <li>
-            <a href="{{ page.url }}">{{ page.title }}</a>
-            {% if page.subMenu %}
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) }}>{{ item.title }}</a>
+            {% if item.subMenu %}
             <ul>
-              {% for subMenu in page.subMenu %}
+              {% for subMenu in item.subMenu %}
               <li>
                 <a href="{{ subMenu.url }}">{{ subMenu.title }}</a>
               </li>
