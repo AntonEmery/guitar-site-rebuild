@@ -1,0 +1,8 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+{% for post in posts %}
+<p>{{ post.title.rendered }}</p>
+{% endfor %}
+
+{% endblock %}

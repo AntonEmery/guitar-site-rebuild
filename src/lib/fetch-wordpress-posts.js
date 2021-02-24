@@ -30,7 +30,7 @@ const fs = require('fs');
     postData.forEach((posts) => { allPosts.push(...posts) })
     try {
       console.log(allPosts.length)
-      fs.writeFileSync(`../_data/wp-posts.json`, JSON.stringify(allPosts, null, 2))
+      fs.writeFileSync(`../_data/posts.json`, JSON.stringify(allPosts, null, 2))
     } catch(err) {
       console.log(errors)
     }

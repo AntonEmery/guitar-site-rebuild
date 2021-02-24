@@ -1,6 +1,6 @@
 ---
 title: 'Anton Emery | Blog'
-layout: 'layouts/home.html'
+layout: 'layouts/blog.html'
 ---
 
 Blog page
