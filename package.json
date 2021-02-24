@@ -10,6 +10,7 @@
   "author": "Anton Emery",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.11.1",
+    "node-fetch": "^2.6.1"
   }
 }
