@@ -2,7 +2,8 @@
 
 {% block content %}
 {% for post in posts %}
-<p>{{ post.title.rendered }}</p>
+<a href="/posts/{{ post.slug }}.html">{{ post.title.rendered }}</a>
+<br>
 {% endfor %}
 
 {% endblock %}

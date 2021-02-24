@@ -1,0 +1,15 @@
+---
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "posts/{{ post.slug | slug }}.html"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block content %}
+  {{ post.content.rendered | safe }}
+{% endblock %}
+
+
