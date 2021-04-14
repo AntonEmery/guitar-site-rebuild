@@ -9,12 +9,12 @@
       "url": "/about",
       "subMenu": [
         {
-          "title": "instruments",
-          "url": "/instruments"
+          "title": "Gear",
+          "url": "/gear"
         },
         {
           "title": "Avery & Anton",
-          "url": "/averyandanton"
+          "url": "/avery-anton"
         },
         {
           "title": "Dram & Go",

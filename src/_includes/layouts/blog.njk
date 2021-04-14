@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<p>Test</p>
+{{ content | safe }}
+
+{% for post in collections.posts %}
+  <a href="/{{ post.data.slug }}/">{{ post.data.title }}</a>
+  <br>
+{% endfor %}
+
+{% endblock %}
