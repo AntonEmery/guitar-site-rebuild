@@ -5,7 +5,7 @@
 {{ content | safe }}
 
 {% for post in collections.posts %}
-  <a href="/{{ post.data.slug }}.html">{{ post.data.title }}</a>
+  <a href="/{{ post.data.slug }}/">{{ post.data.title }}</a>
   <br>
 {% endfor %}
 
