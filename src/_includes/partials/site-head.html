@@ -1,13 +1,19 @@
 <header role="banner" class="site-head">
-  <div class="wrapper">
+  <div class="site-head__wrapper">
     <div class="site-head__inner">
-      <nav aria-label="primary">
-        <ul class="nav__list">
+      <nav class="site-nav" aria-label="primary">
+        <button class="site-nav__hamburger" aria-label="open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="site-nav__items">
           {% for item in navigation.pages %}
           <li>
             <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) }}>{{ item.title }}</a>
             {% if item.subMenu %}
-            <ul>
+            <span class="site-nav__sub">Sub</span>
+            <ul class="site-nav__dropdown">
               {% for subMenu in item.subMenu %}
               <li>
                 <a href="{{ subMenu.url }}">{{ subMenu.title }}</a>

@@ -1,0 +1,21 @@
+// Breakpoints
+$mobile: 480px;
+$tablet: 481px;
+$laptop: 769px;
+$desktop: 1025px;
+
+
+html {
+  --site-max-width: 1400px;
+  --nav-height: 4rem;
+  --standard-border-radius: 4px;
+
+  // Colors
+  --black: black;
+  --light-grey: rgba(0,0,0,0.075);
+  --white: white;
+
+  // Color Intentions
+  --background: var(--white);
+
+}
