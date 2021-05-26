@@ -1,6 +1,5 @@
 @import 'normalize.scss';
+@import 'variables.scss';
 @import 'fonts.scss';
-
-body {
-  font-family: 'Lato', sans-serif;
-}
+@import 'main.scss';
+@import 'nav.scss';

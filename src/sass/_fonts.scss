@@ -36,3 +36,7 @@ p {
   line-height: var(--base-line-height);
   margin: 0 0 1rem;
 }
+
+ul { padding-left: 0; }
+
+li { list-style-type: none; }
